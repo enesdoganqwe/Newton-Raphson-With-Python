@@ -27,7 +27,6 @@ def cizim():
 
 fx = (x-1)**2*(x-2)*(x-3)
 df, ddf = turev(fx)
-cizim()
 
 x = 3
 while True:
@@ -42,4 +41,5 @@ while True:
 print("En iyi x değeri = ",x)
 print("Birinci türev değeri = ",df)
 print("İkinci türev değeri = ",ddf)
+cizim()
 
